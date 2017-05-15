@@ -32,7 +32,7 @@ class PyTest(TestCommand):
 deps = [
     'requests==2.4.3',
     'six==1.10.0',
-    'python-dateutil==2.3'
+    'python-dateutil>=2.3'
 ]
 
 if sys.version_info < (3, 5):
